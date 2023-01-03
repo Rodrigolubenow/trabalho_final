@@ -1,6 +1,6 @@
 :root {
-    --cor-pricipal: rgb(41, 60, 235);
-    --cor-secundaria: rgb(240, 248, 255);
+    --cor-pricipal: rgb(65, 71, 124);
+    --cor-secundaria: rgb(233, 240, 247);
     --cor-contraste: rgb(59, 59, 59);
     --fonte-principal: 'Montserrat', sans-serif;
 }
@@ -16,7 +16,6 @@ body {
     flex-direction: column;
     background-color: var(--cor-pricipal);
     width: 25vw;
-    /* margin-right: 1.5em; */
     justify-content: center;
     align-items: center;
 }
@@ -75,132 +74,12 @@ body {
     line-height: 1.5;
 }
 
-.descricao {
-    margin-bottom: 1em;
-}
-
-.redes-links {
-    color: var(--cor-contraste);
-    margin-right: 1em;
-    border-radius: 20%;
-    width: 80%
-}
-
-.conhecimentos,
-.objetivos {
-    padding: 0 1.5em;
-}
-
-.fa-linkedin:hover {
-    color: #0e76a8;
-}
-
-.fa-square-github:hover {
-    color: #171515
-}
-
-.fa-square-twitter:hover {
-    color: #24a4f4
-}
-
-.fa-square-facebook:hover {
-    color: #3B5998
-}
-
-.conhecimentos {
-    list-style-type: upper-alpha;
-}
-
-.conhecimentos-item,
-.objetivos-item {
-    margin-bottom: 0.5em;
-}
-
-.fa-person-chalkboard,
-.fa-laptop-code {
-    color: var(--cor-contraste);
-    font-size: 1.2em;
-}
-
-html,
 body,
-div,
-span,
-applet,
-object,
-iframe,
 h1,
 h2,
 h3,
 h4,
-h5,
-h6,
-p,
-blockquote,
 pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
 video {
     margin: 0;
     padding: 0;
@@ -208,40 +87,4 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
 }
