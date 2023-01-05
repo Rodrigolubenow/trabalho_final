@@ -66,12 +66,30 @@ body {
 }
 
 .dados-nome-primeiro {
-    color: var(--cor-contraste);
+    color: rgb(20, 20, 19);
 }
 
 .dados-pessoais-titulo {
     font-weight: bold;
     line-height: 1.5;
+}
+
+.redes-links {
+
+    margin: 20px;
+}
+
+#email {
+    color: rgb(60, 60, 190);
+}
+
+#descricao-texto {
+    font-size: large;
+}
+
+.redes-links :hover {
+    transform: scale(1.2);
+    transition-duration: 0.25s;
 }
 
 body,
