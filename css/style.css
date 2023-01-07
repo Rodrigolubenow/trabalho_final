@@ -50,8 +50,11 @@ body {
     background-color: var(--cor-secundaria);
     padding: 0 2.5em;
     flex-grow: 1;
+    font-size: large;
 }
-
+.principal{
+        font-size: large;
+    }
 .dados {
     display: flex;
     flex-direction: column;
